@@ -1,0 +1,16 @@
+{
+  "name": "mytunes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://utkarsh4321.github.io/my_tunes",
+  "keywords": [],
+  "author": "ram",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}

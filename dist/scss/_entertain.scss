@@ -1,0 +1,85 @@
+#video{
+
+background:$light_color;
+color:$menu-hover;
+& a{
+    @include btn($light_color,$btn_secondary);
+  
+    &:hover{
+        background:$btn_sec_hover;
+    }
+}
+
+}
+#entertainment{
+@include background('../img/section-bg.jpg');
+width:100%;
+padding:10rem 0;
+background-attachment: fixed;
+
+}
+#gift-card{
+
+    
+background:$light_color;
+color:$menu-hover;
+
+
+
+& a{
+    
+    text-decoration: none;
+    color:$menu-hover;
+    display: inline-block;
+}
+
+}
+.gift-cards{
+    display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap:20px;
+text-align: left;
+}
+
+.footer-cols{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    padding:2rem;
+    font-size:14px;
+& ul{
+
+
+
+list-style-type:none;
+
+& li:first-child{
+    font-size:1.2rem;
+    border-bottom:1px solid $menu-hover;
+    padding-bottom:.5rem;
+    margin-bottom: 1rem;
+}
+& li{
+    padding-top:5px;
+}
+& a{
+    
+    color:#ccc;
+    text-decoration: none;
+
+}
+}
+
+
+
+}
+.footer-bottom{
+    background:$menu-bg;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+
+
